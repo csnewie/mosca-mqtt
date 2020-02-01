@@ -1,7 +1,7 @@
 var mosca = require('mosca');
 
 var settings = {
-		port:process.env.PORT
+		port:process.env.MQTT_USER
 		}
 
 

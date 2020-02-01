@@ -4,7 +4,7 @@
   "description": "",
   "main": "broker.js",
   "scripts": {
-    "start": "broker.js"
+    "start": "node broker.js"
   },
   "author": "",
   "license": "ISC",

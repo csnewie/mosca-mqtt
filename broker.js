@@ -1,6 +1,10 @@
+require 'uri'
 var mosca = require('mosca');
+
+uri = URI.parse ENV['CLOUDMQTT_URL'] || 'mqtt://localhost:1883'
+
 var settings = {
-		port:1883
+		port:uri.port
 		}
 
 
